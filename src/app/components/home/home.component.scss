@@ -1,0 +1,26 @@
+.home {
+
+    &-hero {
+        color: white;
+        position: relative;
+
+        &-img {
+            z-index: -1;
+            position: absolute;
+            width: 100%;
+            max-height: 600px;
+            overflow: hidden;
+            filter: saturate(150%);
+        }
+
+        &-content {
+            display: flex;
+            padding-top: 3rem;
+            justify-content: center;
+            align-content: center;
+            width: 50%;
+            background-color: rgba(100, 100, 100, 0.5);
+        }
+
+    }
+}
